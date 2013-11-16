@@ -1,4 +1,10 @@
 AlwaysOn
 ========
 
-An example of how to run an Android service in the background even when the user kills the service. Still missing the AndroidManifest.xml update.
+A template for how to resurrect/keeps running an Android service in the background even when the user kills the service.
+
+This template builds in Four ways to revive the service,
+1. User starts the app again.
+2. User presses power key to turn on the screen.
+3. User restarts the phone.
+4. 10 seconds passed after anything/anyone kills our service.
