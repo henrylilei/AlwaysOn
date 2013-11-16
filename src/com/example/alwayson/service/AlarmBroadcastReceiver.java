@@ -8,7 +8,7 @@ import android.content.Intent;
 
 public class AlarmBroadcastReceiver extends BroadcastReceiver {
 	private static final String LOG_TAG = AlarmBroadcastReceiver.class.getSimpleName();
-	public static final String ACTION_CUSTOM_ALARM = "alwayson_alarm_action";
+	public static final String ACTION_CUSTOM_ALARM = "alwayson.alarm.action";
 	
 	@Override
 	public void onReceive(Context context, Intent intent) {

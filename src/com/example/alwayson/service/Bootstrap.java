@@ -45,7 +45,7 @@ public class Bootstrap {
 		}
 	}
 
-	public static synchronized void stopPedometerService(Context context) {
+	public static synchronized void stopAlwaysOnService(Context context) {
 		
 		// stop service
 		Intent pIntent = new Intent(context, AlwaysOnService.class);
