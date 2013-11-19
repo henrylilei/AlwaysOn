@@ -25,6 +25,7 @@ public class AlwaysOnService extends BaseService {
 					this), 0, 1000, TimeUnit.MILLISECONDS);
 			isRunning = true;
 		}
+		// the following will return START_STICKY
 		return super.onStartCommand(intent, flags, startId);
 	}
 
